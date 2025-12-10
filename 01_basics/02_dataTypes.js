@@ -9,7 +9,7 @@ let isLoggedIn = true
 // bigint
 // string -> " "
 // boolean -> true/false
-// null -> standalone value
+// null -> standalone value (object)
 // undefined
 // symbol -> uniqueness
 // object
@@ -17,5 +17,28 @@ let isLoggedIn = true
 console.log(typeof "Kritika");
 console.log(typeof null) // ->  object
 console.log(typeof undefined) // -> undefined
+
+
+// Primitive data types :
+// 7 types : string, number, boolean, null, undefined, symbol, bigint
+
+// Non - primitive  / Reference data types:
+// arrays, objects, functions
+
+// arrays
+ const heros = ["doga", "shaktiman"]
+
+// objects
+ let myObj = {
+    name: " Kritika",
+    age : 20,
+ }
+
+ const myFunction = function(){
+     console.log("Kritika");
+ }
+
+
+
 
 
